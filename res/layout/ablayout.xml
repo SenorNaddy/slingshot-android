@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_light"
+    >
+    
+    <!-- Include the ActionBar layout -->
+	<include layout="@layout/actionbar"/>
+	
+	<!-- Insert your layout items here -->
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	    android:text="Unfortunately Slingshot appear to have removed their API, causing this app to no longer work as intended. It is with regret that I cease development of this app.
+	    
+Thanks to everyone who has installed and used this app, your support has been appreciated.
+
+If in the future Slingshot re-enable access to their app, I shall republish this app on the store and implement the changes I had planned.
+
+Finally in response to feedback about passwords possibly being stolen, this app has never stolen usernames or passwords. They were used for the sole purpose of accessing the Slingshot API and never left the device (except in the HTTPS request to the API). To allow for transparency in this matter I have published the entire application source to GitHub.
+
+https://github.com/SenorNaddy/slingshot-android" />
+	
+	
+	<ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fastScrollEnabled="true"
+        android:visibility="invisible" >
+        </ListView>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Slingshot Usage</string>
+    <string name="title_name">Broadband Usage</string>
+    <string name="actionItem3">Action item 3</string>
+    <string name="actionItem2">Action item 2</string>
+    <string name="actionItem1">Action item 1</string>
+    <string name="actionBarTitle">Action Bar Title</string>
+    <string name="pref_account">Account Settings</string>
+    <string name="pref_username">Username</string>
+    <string name="pref_username_summary">Your Slingshot account username</string>
+    <string name="pref_password">Password</string>
+    <string name="pref_password_summary">Your Slingshot account password</string>
+    <string name="pref_other">Other</string>
+    <string name="pref_wifi_summary">Application will use only WiFi</string>
+    <string name="pref_wifi">Use WiFi only</string>
+</resources>
